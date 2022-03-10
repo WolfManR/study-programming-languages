@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buildings.Core", "GeekBrain
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buildings.UIConsole", "GeekBrains\OOPv2\Buildings\Buildings.UIConsole\Buildings.UIConsole.csproj", "{EF4794BE-3CD1-4A2A-9C10-07885B680D4B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComplexAndRationalNumbers", "GeekBrains\OOPv2\ComplexAndRationalNumbers\ComplexAndRationalNumbers.csproj", "{834DA526-E238-4584-BF94-CF4BA8064B2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +60,10 @@ Global
 		{EF4794BE-3CD1-4A2A-9C10-07885B680D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF4794BE-3CD1-4A2A-9C10-07885B680D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF4794BE-3CD1-4A2A-9C10-07885B680D4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{834DA526-E238-4584-BF94-CF4BA8064B2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{834DA526-E238-4584-BF94-CF4BA8064B2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{834DA526-E238-4584-BF94-CF4BA8064B2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{834DA526-E238-4584-BF94-CF4BA8064B2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +78,7 @@ Global
 		{9B620581-665B-4D8E-B626-2778128BED70} = {600B4187-835C-48D3-89F4-8238683B1DCA}
 		{B1F71E02-D2CC-4691-8EC8-0D05F7D75D5A} = {9B620581-665B-4D8E-B626-2778128BED70}
 		{EF4794BE-3CD1-4A2A-9C10-07885B680D4B} = {9B620581-665B-4D8E-B626-2778128BED70}
+		{834DA526-E238-4584-BF94-CF4BA8064B2B} = {600B4187-835C-48D3-89F4-8238683B1DCA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48DBD92D-0F32-4815-9097-CA9C53A79734}

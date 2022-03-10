@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bank", "Bank", "{0D57B5EF-D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank.Core", "GeekBrains\OOPv2\Bank\Bank.Core\Bank.Core.csproj", "{361C9E5C-A2B9-4CEB-9422-45F0820DAB88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank.UIConsole", "GeekBrains\OOPv2\Bank\Bank.UIConsole\Bank.UIConsole.csproj", "{BB097D37-330F-42A1-A497-CD9C302D7BD1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{361C9E5C-A2B9-4CEB-9422-45F0820DAB88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{361C9E5C-A2B9-4CEB-9422-45F0820DAB88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{361C9E5C-A2B9-4CEB-9422-45F0820DAB88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB097D37-330F-42A1-A497-CD9C302D7BD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB097D37-330F-42A1-A497-CD9C302D7BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB097D37-330F-42A1-A497-CD9C302D7BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB097D37-330F-42A1-A497-CD9C302D7BD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +47,7 @@ Global
 		{600B4187-835C-48D3-89F4-8238683B1DCA} = {0FA446DF-6E7B-4A9F-AD98-147BCAC22DE5}
 		{0D57B5EF-D2E5-4F96-B4CE-60A8CF1E9370} = {600B4187-835C-48D3-89F4-8238683B1DCA}
 		{361C9E5C-A2B9-4CEB-9422-45F0820DAB88} = {0D57B5EF-D2E5-4F96-B4CE-60A8CF1E9370}
+		{BB097D37-330F-42A1-A497-CD9C302D7BD1} = {0D57B5EF-D2E5-4F96-B4CE-60A8CF1E9370}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48DBD92D-0F32-4815-9097-CA9C53A79734}

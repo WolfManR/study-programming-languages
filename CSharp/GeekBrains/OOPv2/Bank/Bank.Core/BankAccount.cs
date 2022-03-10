@@ -1,6 +1,6 @@
 ﻿namespace Bank.Core
 {
-    public class BankAccount
+    public class BankAccount : IEquatable<BankAccount?>
     {
         private readonly Guid _id;
         private readonly BankAccountType _type;
@@ -43,5 +43,21 @@
 
             return true;
         }
+
+        public override string ToString() => $"Bank account: {Id} of type {Type} with balance {Balance}";
+
+        public override bool Equals(object? obj) => Equals(obj as BankAccount);
+
+        public bool Equals(BankAccount? other)
+        {
+            return other != null &&
+                   _id.Equals(other._id) &&
+                   _type == other._type;
+        }
+
+        public override int GetHashCode() => HashCode.Combine(_id, _type);
+
+        public static bool operator ==(BankAccount? left, BankAccount? right) => EqualityComparer<BankAccount>.Default.Equals(left, right);
+        public static bool operator !=(BankAccount? left, BankAccount? right) => !(left == right);
     }
 }

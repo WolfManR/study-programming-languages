@@ -23,15 +23,24 @@
         public BankAccountType Type => _type;
         public decimal Balance => _balance;
 
-        public void Deposit(decimal sum)
+        public void Deposit(decimal amount)
         {
-            _balance += sum;
+            _balance += amount;
         }
 
-        public bool TryWithdraw(decimal sum)
+        public bool TryWithdraw(decimal amount)
         {
-            if (_balance - sum < 0) return false;
-            _balance -= sum;
+            if (_balance - amount < 0) return false;
+            _balance -= amount;
+            return true;
+        }
+
+        public bool TryDepositTo(BankAccount to, decimal amount)
+        {
+            if (!TryWithdraw(amount)) return false;
+
+            to.Deposit(amount);
+
             return true;
         }
     }

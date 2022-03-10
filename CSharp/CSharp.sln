@@ -12,6 +12,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GeekBrains", "GeekBrains", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnakeInConsole", "GeekBrains\SnakeInConsole\SnakeInConsole.csproj", "{D9CA484C-BD96-4ECE-97AB-D073BA88B957}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OOPv2", "OOPv2", "{600B4187-835C-48D3-89F4-8238683B1DCA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bank", "Bank", "{0D57B5EF-D2E5-4F96-B4CE-60A8CF1E9370}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank.Core", "GeekBrains\OOPv2\Bank\Bank.Core\Bank.Core.csproj", "{361C9E5C-A2B9-4CEB-9422-45F0820DAB88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,12 +28,19 @@ Global
 		{D9CA484C-BD96-4ECE-97AB-D073BA88B957}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9CA484C-BD96-4ECE-97AB-D073BA88B957}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9CA484C-BD96-4ECE-97AB-D073BA88B957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{361C9E5C-A2B9-4CEB-9422-45F0820DAB88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{361C9E5C-A2B9-4CEB-9422-45F0820DAB88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{361C9E5C-A2B9-4CEB-9422-45F0820DAB88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{361C9E5C-A2B9-4CEB-9422-45F0820DAB88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D9CA484C-BD96-4ECE-97AB-D073BA88B957} = {0FA446DF-6E7B-4A9F-AD98-147BCAC22DE5}
+		{600B4187-835C-48D3-89F4-8238683B1DCA} = {0FA446DF-6E7B-4A9F-AD98-147BCAC22DE5}
+		{0D57B5EF-D2E5-4F96-B4CE-60A8CF1E9370} = {600B4187-835C-48D3-89F4-8238683B1DCA}
+		{361C9E5C-A2B9-4CEB-9422-45F0820DAB88} = {0D57B5EF-D2E5-4F96-B4CE-60A8CF1E9370}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48DBD92D-0F32-4815-9097-CA9C53A79734}

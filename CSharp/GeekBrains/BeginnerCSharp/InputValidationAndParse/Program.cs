@@ -2,12 +2,21 @@
 
 using static System.Console;
 
-CalculateAverageDayTemperatureAndPrintIt();
-PrintMonthNameByItNumber();
+if (TryCalculateAverageDayTemperature(out var averageTemperature) && TryGetMonthNumber(out var monthNumber))
+{
+    if (monthNumber is 12 or <= 2 && averageTemperature > 0)
+        WriteLine("It's rainy winter today");
+
+    WriteLine($"The average daily temperature is {averageTemperature}");
+    var date = new DateTime(2021, monthNumber, 1);
+    WriteLine($"Current month name is {date.ToString("MMMM", CultureInfo.CurrentCulture)}");
+}
+
 InputNumberEvenOrOdd();
 
-static void CalculateAverageDayTemperatureAndPrintIt()
+static bool TryCalculateAverageDayTemperature(out float averageTemperature)
 {
+    averageTemperature = default;
     const string inputMessage = "Please input {0} Temperature of the day";
     const string notCorrectMessage = "{0} temperature not correct";
 
@@ -16,7 +25,7 @@ static void CalculateAverageDayTemperatureAndPrintIt()
     if (!float.TryParse(minimalTemperature, out var min))
     {
         WriteLine(notCorrectMessage, "Minimum");
-        return;
+        return false;
     }
 
     WriteLine(inputMessage, "maximum");
@@ -24,35 +33,31 @@ static void CalculateAverageDayTemperatureAndPrintIt()
     if (!float.TryParse(maximumTemperature, out var max))
     {
         WriteLine(notCorrectMessage, "Maximum");
-        return;
+        return false;
     }
 
-    var averageTemperature = (min + max) / 2;
-    WriteLine($"The average daily temperature is {averageTemperature}");
+    averageTemperature = (min + max) / 2;
+    return true;
 }
 
-static void PrintMonthNameByItNumber()
+static bool TryGetMonthNumber(out int monthNumber)
 {
     const string incorrectMonthMessage = "Not correct month number";
 
     WriteLine("Please input number of the current month");
-    var monthNumber = ReadLine().AsSpan();
+    var monthNumberInput = ReadLine().AsSpan();
 
-    if (!int.TryParse(monthNumber, out var number))
+    if (!int.TryParse(monthNumberInput, out monthNumber))
     {
         WriteLine(incorrectMonthMessage);
-        return;
+        return false;
     }
 
-    if (number is <= 0 or > 12)
-    {
-        WriteLine(incorrectMonthMessage);
-        return;
-    }
+    if (monthNumber is > 0 and <= 12) return true;
 
-    var date = new DateTime(2021, number, 1);
+    WriteLine(incorrectMonthMessage);
+    return false;
 
-    WriteLine($"Current month name is {date.ToString("MMMM", CultureInfo.CurrentCulture)}");
 }
 
 static void InputNumberEvenOrOdd()

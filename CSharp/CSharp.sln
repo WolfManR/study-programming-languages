@@ -66,6 +66,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson5", "Lesson5", "{F73E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeWriter", "GeekBrains\BeginnerCSharp\TypeWriter\TypeWriter.csproj", "{5011B6BF-1917-43BC-B77E-8686CFC2CEF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryWritingHandler", "GeekBrains\BeginnerCSharp\BinaryWritingHandler\BinaryWritingHandler.csproj", "{3C20B5FA-B3A7-45EE-AFDC-D2C4ADC7E466}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -144,6 +146,10 @@ Global
 		{5011B6BF-1917-43BC-B77E-8686CFC2CEF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5011B6BF-1917-43BC-B77E-8686CFC2CEF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5011B6BF-1917-43BC-B77E-8686CFC2CEF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C20B5FA-B3A7-45EE-AFDC-D2C4ADC7E466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C20B5FA-B3A7-45EE-AFDC-D2C4ADC7E466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C20B5FA-B3A7-45EE-AFDC-D2C4ADC7E466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C20B5FA-B3A7-45EE-AFDC-D2C4ADC7E466}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -177,6 +183,7 @@ Global
 		{BF9C5130-8429-4608-8785-F3891803ED39} = {480BCB3D-5B5B-4102-BF7D-21E1CB80EB3D}
 		{F73ED8A1-F346-4B41-93EB-D8AA9DCAC861} = {AD9BE961-F7EF-48C1-B365-3B3C268EBFD9}
 		{5011B6BF-1917-43BC-B77E-8686CFC2CEF4} = {F73ED8A1-F346-4B41-93EB-D8AA9DCAC861}
+		{3C20B5FA-B3A7-45EE-AFDC-D2C4ADC7E466} = {F73ED8A1-F346-4B41-93EB-D8AA9DCAC861}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48DBD92D-0F32-4815-9097-CA9C53A79734}

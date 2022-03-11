@@ -46,6 +46,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputValidationAndParse", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumFlags", "GeekBrains\BeginnerCSharp\EnumFlags\EnumFlags.csproj", "{C3C3FBDD-4770-4EC1-98EF-C9019070B25F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreCheckTemplatePrinter", "GeekBrains\BeginnerCSharp\StoreCheckTemplatePrinter\StoreCheckTemplatePrinter.csproj", "{A765DD52-C913-4BD9-BBD2-9C3FD90D1A7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -104,6 +106,10 @@ Global
 		{C3C3FBDD-4770-4EC1-98EF-C9019070B25F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3C3FBDD-4770-4EC1-98EF-C9019070B25F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3C3FBDD-4770-4EC1-98EF-C9019070B25F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A765DD52-C913-4BD9-BBD2-9C3FD90D1A7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A765DD52-C913-4BD9-BBD2-9C3FD90D1A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A765DD52-C913-4BD9-BBD2-9C3FD90D1A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A765DD52-C913-4BD9-BBD2-9C3FD90D1A7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -127,6 +133,7 @@ Global
 		{0BF8F1EE-37D9-4727-8AA8-291847792863} = {AD9BE961-F7EF-48C1-B365-3B3C268EBFD9}
 		{131D74A4-3F3E-4C2C-949B-FE0DC5083690} = {AD9BE961-F7EF-48C1-B365-3B3C268EBFD9}
 		{C3C3FBDD-4770-4EC1-98EF-C9019070B25F} = {AD9BE961-F7EF-48C1-B365-3B3C268EBFD9}
+		{A765DD52-C913-4BD9-BBD2-9C3FD90D1A7F} = {AD9BE961-F7EF-48C1-B365-3B3C268EBFD9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48DBD92D-0F32-4815-9097-CA9C53A79734}

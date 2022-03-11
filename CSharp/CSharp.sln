@@ -56,6 +56,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson3", "Lesson3", "{A270
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "GeekBrains\BeginnerCSharp\Arrays\Arrays.csproj", "{4AAC5F21-EC9C-4AE2-97C3-5091017A68CB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeaBattle", "GeekBrains\BeginnerCSharp\SeaBattle\SeaBattle.csproj", "{B3F198C2-806C-4F15-A281-83D502ACAD74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -122,6 +124,10 @@ Global
 		{4AAC5F21-EC9C-4AE2-97C3-5091017A68CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AAC5F21-EC9C-4AE2-97C3-5091017A68CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AAC5F21-EC9C-4AE2-97C3-5091017A68CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3F198C2-806C-4F15-A281-83D502ACAD74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3F198C2-806C-4F15-A281-83D502ACAD74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3F198C2-806C-4F15-A281-83D502ACAD74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3F198C2-806C-4F15-A281-83D502ACAD74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -150,6 +156,7 @@ Global
 		{3F572E9D-EB77-4227-9758-23FE1696A315} = {AD9BE961-F7EF-48C1-B365-3B3C268EBFD9}
 		{A2708809-2AEA-4825-8980-1FA65EEC6888} = {AD9BE961-F7EF-48C1-B365-3B3C268EBFD9}
 		{4AAC5F21-EC9C-4AE2-97C3-5091017A68CB} = {A2708809-2AEA-4825-8980-1FA65EEC6888}
+		{B3F198C2-806C-4F15-A281-83D502ACAD74} = {A2708809-2AEA-4825-8980-1FA65EEC6888}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48DBD92D-0F32-4815-9097-CA9C53A79734}

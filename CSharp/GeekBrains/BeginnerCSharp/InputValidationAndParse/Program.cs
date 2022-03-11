@@ -4,6 +4,7 @@ using static System.Console;
 
 CalculateAverageDayTemperatureAndPrintIt();
 PrintMonthNameByItNumber();
+InputNumberEvenOrOdd();
 
 static void CalculateAverageDayTemperatureAndPrintIt()
 {
@@ -52,4 +53,18 @@ static void PrintMonthNameByItNumber()
     var date = new DateTime(2021, number, 1);
 
     WriteLine($"Current month name is {date.ToString("MMMM", CultureInfo.CurrentCulture)}");
+}
+
+static void InputNumberEvenOrOdd()
+{
+    WriteLine("Please input number");
+    var userNumber = ReadLine().AsSpan();
+
+    if (!int.TryParse(userNumber, out var number))
+    {
+        WriteLine("Not Correct input");
+        return;
+    }
+
+    WriteLine("Your number is {0}", number % 2 == 0 ? "even" : "odd");
 }

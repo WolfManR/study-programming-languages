@@ -72,6 +72,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathPrinterToFile", "GeekBr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileToDo", "GeekBrains\BeginnerCSharp\FileToDo\FileToDo.csproj", "{D5B1CAF4-EFA8-402A-9209-023AAFB80FB4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson6", "Lesson6", "{A3CC82E3-D4DD-402C-90E1-24C9AFF9CFED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemProccessesHandler", "GeekBrains\BeginnerCSharp\SystemProccessesHandler\SystemProccessesHandler.csproj", "{2986AFC1-4687-4B6D-940A-C680FE7F73D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -162,6 +166,10 @@ Global
 		{D5B1CAF4-EFA8-402A-9209-023AAFB80FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5B1CAF4-EFA8-402A-9209-023AAFB80FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5B1CAF4-EFA8-402A-9209-023AAFB80FB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2986AFC1-4687-4B6D-940A-C680FE7F73D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2986AFC1-4687-4B6D-940A-C680FE7F73D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2986AFC1-4687-4B6D-940A-C680FE7F73D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2986AFC1-4687-4B6D-940A-C680FE7F73D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -198,6 +206,8 @@ Global
 		{3C20B5FA-B3A7-45EE-AFDC-D2C4ADC7E466} = {F73ED8A1-F346-4B41-93EB-D8AA9DCAC861}
 		{770BC758-1DBE-4E5E-B172-E9712D700AEB} = {F73ED8A1-F346-4B41-93EB-D8AA9DCAC861}
 		{D5B1CAF4-EFA8-402A-9209-023AAFB80FB4} = {F73ED8A1-F346-4B41-93EB-D8AA9DCAC861}
+		{A3CC82E3-D4DD-402C-90E1-24C9AFF9CFED} = {AD9BE961-F7EF-48C1-B365-3B3C268EBFD9}
+		{2986AFC1-4687-4B6D-940A-C680FE7F73D9} = {A3CC82E3-D4DD-402C-90E1-24C9AFF9CFED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48DBD92D-0F32-4815-9097-CA9C53A79734}

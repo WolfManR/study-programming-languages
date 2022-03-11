@@ -16,27 +16,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OOPv2", "OOPv2", "{600B4187
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bank", "Bank", "{0D57B5EF-D2E5-4F96-B4CE-60A8CF1E9370}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank.Core", "GeekBrains\OOPv2\Bank\Bank.Core\Bank.Core.csproj", "{361C9E5C-A2B9-4CEB-9422-45F0820DAB88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bank.Core", "GeekBrains\OOPv2\Bank\Bank.Core\Bank.Core.csproj", "{361C9E5C-A2B9-4CEB-9422-45F0820DAB88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank.UIConsole", "GeekBrains\OOPv2\Bank\Bank.UIConsole\Bank.UIConsole.csproj", "{BB097D37-330F-42A1-A497-CD9C302D7BD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bank.UIConsole", "GeekBrains\OOPv2\Bank\Bank.UIConsole\Bank.UIConsole.csproj", "{BB097D37-330F-42A1-A497-CD9C302D7BD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scripts", "GeekBrains\OOPv2\Scripts\Scripts.csproj", "{2B078563-8F4F-4870-959B-82ADF66A0D2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scripts", "GeekBrains\OOPv2\Scripts\Scripts.csproj", "{2B078563-8F4F-4870-959B-82ADF66A0D2F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Buildings", "Buildings", "{9B620581-665B-4D8E-B626-2778128BED70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buildings.Core", "GeekBrains\OOPv2\Buildings\Buildings.Core\Buildings.Core.csproj", "{B1F71E02-D2CC-4691-8EC8-0D05F7D75D5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Buildings.Core", "GeekBrains\OOPv2\Buildings\Buildings.Core\Buildings.Core.csproj", "{B1F71E02-D2CC-4691-8EC8-0D05F7D75D5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buildings.UIConsole", "GeekBrains\OOPv2\Buildings\Buildings.UIConsole\Buildings.UIConsole.csproj", "{EF4794BE-3CD1-4A2A-9C10-07885B680D4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Buildings.UIConsole", "GeekBrains\OOPv2\Buildings\Buildings.UIConsole\Buildings.UIConsole.csproj", "{EF4794BE-3CD1-4A2A-9C10-07885B680D4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComplexAndRationalNumbers", "GeekBrains\OOPv2\ComplexAndRationalNumbers\ComplexAndRationalNumbers.csproj", "{834DA526-E238-4584-BF94-CF4BA8064B2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComplexAndRationalNumbers", "GeekBrains\OOPv2\ComplexAndRationalNumbers\ComplexAndRationalNumbers.csproj", "{834DA526-E238-4584-BF94-CF4BA8064B2B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Figures", "Figures", "{AB7733FA-81C2-495B-A85A-2B6D9C0628DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Figures.UIConsole", "GeekBrains\OOPv2\Figures\Figures.UIConsole\Figures.UIConsole.csproj", "{2F28CC27-E5DF-49E3-92C0-E90CC2FD45DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Figures.UIConsole", "GeekBrains\OOPv2\Figures\Figures.UIConsole\Figures.UIConsole.csproj", "{2F28CC27-E5DF-49E3-92C0-E90CC2FD45DC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Figures.Core", "GeekBrains\OOPv2\Figures\Figures.Core\Figures.Core.csproj", "{BB09F489-133D-441D-B333-73C496863C6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encriptions", "GeekBrains\OOPv2\Encriptions\Encriptions.csproj", "{D0438607-EA0B-4F7D-85CA-E0B1C069C49B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Encriptions", "GeekBrains\OOPv2\Encriptions\Encriptions.csproj", "{D0438607-EA0B-4F7D-85CA-E0B1C069C49B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BeginnerCSharp", "BeginnerCSharp", "{AD9BE961-F7EF-48C1-B365-3B3C268EBFD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloUser", "GeekBrains\BeginnerCSharp\HelloUser\HelloUser.csproj", "{0BF8F1EE-37D9-4727-8AA8-291847792863}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -84,6 +88,10 @@ Global
 		{D0438607-EA0B-4F7D-85CA-E0B1C069C49B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0438607-EA0B-4F7D-85CA-E0B1C069C49B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0438607-EA0B-4F7D-85CA-E0B1C069C49B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BF8F1EE-37D9-4727-8AA8-291847792863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BF8F1EE-37D9-4727-8AA8-291847792863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BF8F1EE-37D9-4727-8AA8-291847792863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BF8F1EE-37D9-4727-8AA8-291847792863}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -103,6 +111,8 @@ Global
 		{2F28CC27-E5DF-49E3-92C0-E90CC2FD45DC} = {AB7733FA-81C2-495B-A85A-2B6D9C0628DF}
 		{BB09F489-133D-441D-B333-73C496863C6C} = {AB7733FA-81C2-495B-A85A-2B6D9C0628DF}
 		{D0438607-EA0B-4F7D-85CA-E0B1C069C49B} = {600B4187-835C-48D3-89F4-8238683B1DCA}
+		{AD9BE961-F7EF-48C1-B365-3B3C268EBFD9} = {0FA446DF-6E7B-4A9F-AD98-147BCAC22DE5}
+		{0BF8F1EE-37D9-4727-8AA8-291847792863} = {AD9BE961-F7EF-48C1-B365-3B3C268EBFD9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48DBD92D-0F32-4815-9097-CA9C53A79734}

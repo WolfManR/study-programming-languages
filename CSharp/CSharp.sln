@@ -84,6 +84,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryMonitor.Domain", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryMonitor.UIConsole", "GeekBrains\BeginnerCSharp\DirectoryMonitor.UIConsole\DirectoryMonitor.UIConsole.csproj", "{D8594C46-F434-48F1-AE14-95A44DB88784}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson8", "Lesson8", "{654B2D65-C40B-4A32-8A6D-99B6A8E5AC4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserSettingsManager", "GeekBrains\BeginnerCSharp\UserSettingsManager\UserSettingsManager.csproj", "{9123BAA7-FCE5-4B6A-A5F8-725355DD32A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -190,6 +194,10 @@ Global
 		{D8594C46-F434-48F1-AE14-95A44DB88784}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8594C46-F434-48F1-AE14-95A44DB88784}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8594C46-F434-48F1-AE14-95A44DB88784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9123BAA7-FCE5-4B6A-A5F8-725355DD32A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9123BAA7-FCE5-4B6A-A5F8-725355DD32A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9123BAA7-FCE5-4B6A-A5F8-725355DD32A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9123BAA7-FCE5-4B6A-A5F8-725355DD32A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -232,6 +240,8 @@ Global
 		{8C5DC8BA-6219-4484-9480-6ABA803CED9B} = {01CB6DEA-6F02-4DCA-A5F8-8886D53AF5B6}
 		{3DE4C22C-BC7E-437C-9FB9-8892403B97DC} = {01CB6DEA-6F02-4DCA-A5F8-8886D53AF5B6}
 		{D8594C46-F434-48F1-AE14-95A44DB88784} = {01CB6DEA-6F02-4DCA-A5F8-8886D53AF5B6}
+		{654B2D65-C40B-4A32-8A6D-99B6A8E5AC4E} = {AD9BE961-F7EF-48C1-B365-3B3C268EBFD9}
+		{9123BAA7-FCE5-4B6A-A5F8-725355DD32A6} = {654B2D65-C40B-4A32-8A6D-99B6A8E5AC4E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48DBD92D-0F32-4815-9097-CA9C53A79734}

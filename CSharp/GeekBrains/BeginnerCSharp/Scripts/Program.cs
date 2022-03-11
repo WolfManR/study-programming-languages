@@ -5,6 +5,7 @@ using static System.Console;
 MergeFIOInToFullName();
 ParseInputNumbers();
 PrintCurrentYearSeasonByMonthNumber();
+CalculateFibonacciNumber();
 
 
 static void MergeFIOInToFullName()
@@ -98,3 +99,25 @@ static void PrintCurrentYearSeasonByMonthNumber()
                  };
     WriteLine($"Current season is {season}");
 }
+
+static void CalculateFibonacciNumber()
+{
+    WriteLine("Input a number for calculating it's fibonacci");
+    var input = ReadLine().AsSpan();
+
+    if (!int.TryParse(input, out var n))
+    {
+        WriteLine("incorrect number");
+        return;
+    }
+
+    WriteLine($"Fibonacci of {n} is {Fibonacci(n)}");
+}
+
+static int Fibonacci(int n) =>
+    n switch
+    {
+        0 => 0,
+        1 => 1,
+        _ => Fibonacci(n - 1) + Fibonacci(n - 2)
+    };

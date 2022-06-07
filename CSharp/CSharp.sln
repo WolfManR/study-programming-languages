@@ -40,13 +40,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Encriptions", "GeekBrains\O
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BeginnerCSharp", "BeginnerCSharp", "{AD9BE961-F7EF-48C1-B365-3B3C268EBFD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloUser", "GeekBrains\BeginnerCSharp\HelloUser\HelloUser.csproj", "{0BF8F1EE-37D9-4727-8AA8-291847792863}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloUser", "GeekBrains\BeginnerCSharp\HelloUser\HelloUser.csproj", "{0BF8F1EE-37D9-4727-8AA8-291847792863}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputValidationAndParse", "GeekBrains\BeginnerCSharp\InputValidationAndParse\InputValidationAndParse.csproj", "{131D74A4-3F3E-4C2C-949B-FE0DC5083690}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InputValidationAndParse", "GeekBrains\BeginnerCSharp\InputValidationAndParse\InputValidationAndParse.csproj", "{131D74A4-3F3E-4C2C-949B-FE0DC5083690}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumFlags", "GeekBrains\BeginnerCSharp\EnumFlags\EnumFlags.csproj", "{C3C3FBDD-4770-4EC1-98EF-C9019070B25F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumFlags", "GeekBrains\BeginnerCSharp\EnumFlags\EnumFlags.csproj", "{C3C3FBDD-4770-4EC1-98EF-C9019070B25F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreCheckTemplatePrinter", "GeekBrains\BeginnerCSharp\StoreCheckTemplatePrinter\StoreCheckTemplatePrinter.csproj", "{A765DD52-C913-4BD9-BBD2-9C3FD90D1A7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoreCheckTemplatePrinter", "GeekBrains\BeginnerCSharp\StoreCheckTemplatePrinter\StoreCheckTemplatePrinter.csproj", "{A765DD52-C913-4BD9-BBD2-9C3FD90D1A7F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson1", "Lesson1", "{4AF9B486-B70F-43E9-999A-2B01A39933B7}"
 EndProject
@@ -54,39 +54,43 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson2", "Lesson2", "{3F57
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson3", "Lesson3", "{A2708809-2AEA-4825-8980-1FA65EEC6888}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "GeekBrains\BeginnerCSharp\Arrays\Arrays.csproj", "{4AAC5F21-EC9C-4AE2-97C3-5091017A68CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "GeekBrains\BeginnerCSharp\Arrays\Arrays.csproj", "{4AAC5F21-EC9C-4AE2-97C3-5091017A68CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeaBattle", "GeekBrains\BeginnerCSharp\SeaBattle\SeaBattle.csproj", "{B3F198C2-806C-4F15-A281-83D502ACAD74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeaBattle", "GeekBrains\BeginnerCSharp\SeaBattle\SeaBattle.csproj", "{B3F198C2-806C-4F15-A281-83D502ACAD74}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson4", "Lesson4", "{480BCB3D-5B5B-4102-BF7D-21E1CB80EB3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scripts", "GeekBrains\BeginnerCSharp\Scripts\Scripts.csproj", "{BF9C5130-8429-4608-8785-F3891803ED39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scripts", "GeekBrains\BeginnerCSharp\Scripts\Scripts.csproj", "{BF9C5130-8429-4608-8785-F3891803ED39}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson5", "Lesson5", "{F73ED8A1-F346-4B41-93EB-D8AA9DCAC861}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeWriter", "GeekBrains\BeginnerCSharp\TypeWriter\TypeWriter.csproj", "{5011B6BF-1917-43BC-B77E-8686CFC2CEF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypeWriter", "GeekBrains\BeginnerCSharp\TypeWriter\TypeWriter.csproj", "{5011B6BF-1917-43BC-B77E-8686CFC2CEF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryWritingHandler", "GeekBrains\BeginnerCSharp\BinaryWritingHandler\BinaryWritingHandler.csproj", "{3C20B5FA-B3A7-45EE-AFDC-D2C4ADC7E466}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryWritingHandler", "GeekBrains\BeginnerCSharp\BinaryWritingHandler\BinaryWritingHandler.csproj", "{3C20B5FA-B3A7-45EE-AFDC-D2C4ADC7E466}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathPrinterToFile", "GeekBrains\BeginnerCSharp\PathPrinterToFile\PathPrinterToFile.csproj", "{770BC758-1DBE-4E5E-B172-E9712D700AEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PathPrinterToFile", "GeekBrains\BeginnerCSharp\PathPrinterToFile\PathPrinterToFile.csproj", "{770BC758-1DBE-4E5E-B172-E9712D700AEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileToDo", "GeekBrains\BeginnerCSharp\FileToDo\FileToDo.csproj", "{D5B1CAF4-EFA8-402A-9209-023AAFB80FB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileToDo", "GeekBrains\BeginnerCSharp\FileToDo\FileToDo.csproj", "{D5B1CAF4-EFA8-402A-9209-023AAFB80FB4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson6", "Lesson6", "{A3CC82E3-D4DD-402C-90E1-24C9AFF9CFED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemProccessesHandler", "GeekBrains\BeginnerCSharp\SystemProccessesHandler\SystemProccessesHandler.csproj", "{2986AFC1-4687-4B6D-940A-C680FE7F73D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SystemProccessesHandler", "GeekBrains\BeginnerCSharp\SystemProccessesHandler\SystemProccessesHandler.csproj", "{2986AFC1-4687-4B6D-940A-C680FE7F73D9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson7", "Lesson7", "{01CB6DEA-6F02-4DCA-A5F8-8886D53AF5B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryMonitor.Core", "GeekBrains\BeginnerCSharp\DirectoryMonitor.Core\DirectoryMonitor.Core.csproj", "{8C5DC8BA-6219-4484-9480-6ABA803CED9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectoryMonitor.Core", "GeekBrains\BeginnerCSharp\DirectoryMonitor.Core\DirectoryMonitor.Core.csproj", "{8C5DC8BA-6219-4484-9480-6ABA803CED9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryMonitor.Domain", "GeekBrains\BeginnerCSharp\DirectoryMonitor.Domain\DirectoryMonitor.Domain.csproj", "{3DE4C22C-BC7E-437C-9FB9-8892403B97DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectoryMonitor.Domain", "GeekBrains\BeginnerCSharp\DirectoryMonitor.Domain\DirectoryMonitor.Domain.csproj", "{3DE4C22C-BC7E-437C-9FB9-8892403B97DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryMonitor.UIConsole", "GeekBrains\BeginnerCSharp\DirectoryMonitor.UIConsole\DirectoryMonitor.UIConsole.csproj", "{D8594C46-F434-48F1-AE14-95A44DB88784}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectoryMonitor.UIConsole", "GeekBrains\BeginnerCSharp\DirectoryMonitor.UIConsole\DirectoryMonitor.UIConsole.csproj", "{D8594C46-F434-48F1-AE14-95A44DB88784}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson8", "Lesson8", "{654B2D65-C40B-4A32-8A6D-99B6A8E5AC4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserSettingsManager", "GeekBrains\BeginnerCSharp\UserSettingsManager\UserSettingsManager.csproj", "{9123BAA7-FCE5-4B6A-A5F8-725355DD32A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserSettingsManager", "GeekBrains\BeginnerCSharp\UserSettingsManager\UserSettingsManager.csproj", "{9123BAA7-FCE5-4B6A-A5F8-725355DD32A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Algorithms", "Algorithms", "{91FA761E-E9DD-4BFD-9C84-FE30E448FEF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAlgorithms", "GeekBrains\Algorithms\SimpleAlgorithms\SimpleAlgorithms.csproj", "{077792A1-D272-4ADE-A1EE-AEC0AA3ADF95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -198,6 +202,10 @@ Global
 		{9123BAA7-FCE5-4B6A-A5F8-725355DD32A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9123BAA7-FCE5-4B6A-A5F8-725355DD32A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9123BAA7-FCE5-4B6A-A5F8-725355DD32A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{077792A1-D272-4ADE-A1EE-AEC0AA3ADF95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{077792A1-D272-4ADE-A1EE-AEC0AA3ADF95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{077792A1-D272-4ADE-A1EE-AEC0AA3ADF95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{077792A1-D272-4ADE-A1EE-AEC0AA3ADF95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -242,6 +250,8 @@ Global
 		{D8594C46-F434-48F1-AE14-95A44DB88784} = {01CB6DEA-6F02-4DCA-A5F8-8886D53AF5B6}
 		{654B2D65-C40B-4A32-8A6D-99B6A8E5AC4E} = {AD9BE961-F7EF-48C1-B365-3B3C268EBFD9}
 		{9123BAA7-FCE5-4B6A-A5F8-725355DD32A6} = {654B2D65-C40B-4A32-8A6D-99B6A8E5AC4E}
+		{91FA761E-E9DD-4BFD-9C84-FE30E448FEF4} = {0FA446DF-6E7B-4A9F-AD98-147BCAC22DE5}
+		{077792A1-D272-4ADE-A1EE-AEC0AA3ADF95} = {91FA761E-E9DD-4BFD-9C84-FE30E448FEF4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48DBD92D-0F32-4815-9097-CA9C53A79734}

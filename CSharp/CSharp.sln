@@ -92,6 +92,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Algorithms", "Algorithms", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAlgorithms", "GeekBrains\Algorithms\SimpleAlgorithms\SimpleAlgorithms.csproj", "{077792A1-D272-4ADE-A1EE-AEC0AA3ADF95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCollections", "GeekBrains\Algorithms\CustomCollections\CustomCollections.csproj", "{A5F87CD9-7F69-4A80-91F2-AB04359A352D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -206,6 +208,10 @@ Global
 		{077792A1-D272-4ADE-A1EE-AEC0AA3ADF95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{077792A1-D272-4ADE-A1EE-AEC0AA3ADF95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{077792A1-D272-4ADE-A1EE-AEC0AA3ADF95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5F87CD9-7F69-4A80-91F2-AB04359A352D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F87CD9-7F69-4A80-91F2-AB04359A352D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F87CD9-7F69-4A80-91F2-AB04359A352D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F87CD9-7F69-4A80-91F2-AB04359A352D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -252,6 +258,7 @@ Global
 		{9123BAA7-FCE5-4B6A-A5F8-725355DD32A6} = {654B2D65-C40B-4A32-8A6D-99B6A8E5AC4E}
 		{91FA761E-E9DD-4BFD-9C84-FE30E448FEF4} = {0FA446DF-6E7B-4A9F-AD98-147BCAC22DE5}
 		{077792A1-D272-4ADE-A1EE-AEC0AA3ADF95} = {91FA761E-E9DD-4BFD-9C84-FE30E448FEF4}
+		{A5F87CD9-7F69-4A80-91F2-AB04359A352D} = {91FA761E-E9DD-4BFD-9C84-FE30E448FEF4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48DBD92D-0F32-4815-9097-CA9C53A79734}

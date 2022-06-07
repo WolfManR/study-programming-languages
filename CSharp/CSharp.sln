@@ -94,6 +94,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAlgorithms", "GeekBra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCollections", "GeekBrains\Algorithms\CustomCollections\CustomCollections.csproj", "{A5F87CD9-7F69-4A80-91F2-AB04359A352D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkTests", "GeekBrains\Algorithms\BenchmarkTests\BenchmarkTests.csproj", "{3A3F7645-CBD4-4D53-AAA1-082875CA2146}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -212,6 +214,10 @@ Global
 		{A5F87CD9-7F69-4A80-91F2-AB04359A352D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5F87CD9-7F69-4A80-91F2-AB04359A352D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5F87CD9-7F69-4A80-91F2-AB04359A352D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A3F7645-CBD4-4D53-AAA1-082875CA2146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A3F7645-CBD4-4D53-AAA1-082875CA2146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A3F7645-CBD4-4D53-AAA1-082875CA2146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A3F7645-CBD4-4D53-AAA1-082875CA2146}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -259,6 +265,7 @@ Global
 		{91FA761E-E9DD-4BFD-9C84-FE30E448FEF4} = {0FA446DF-6E7B-4A9F-AD98-147BCAC22DE5}
 		{077792A1-D272-4ADE-A1EE-AEC0AA3ADF95} = {91FA761E-E9DD-4BFD-9C84-FE30E448FEF4}
 		{A5F87CD9-7F69-4A80-91F2-AB04359A352D} = {91FA761E-E9DD-4BFD-9C84-FE30E448FEF4}
+		{3A3F7645-CBD4-4D53-AAA1-082875CA2146} = {91FA761E-E9DD-4BFD-9C84-FE30E448FEF4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48DBD92D-0F32-4815-9097-CA9C53A79734}

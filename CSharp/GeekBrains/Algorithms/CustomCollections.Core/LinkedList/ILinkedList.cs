@@ -1,4 +1,4 @@
-﻿namespace CustomCollections.LinkedList;
+﻿namespace CustomCollections.Core.LinkedList;
 
 /// <summary>
 /// Начальную и конечную ноду нужно хранить в самой реализации интерфейса

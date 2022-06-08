@@ -1,4 +1,4 @@
-﻿namespace CustomCollections.BinaryTree;
+﻿namespace CustomCollections.Core.BinaryTree;
 
 public class MyBinaryTree : ITree
 {

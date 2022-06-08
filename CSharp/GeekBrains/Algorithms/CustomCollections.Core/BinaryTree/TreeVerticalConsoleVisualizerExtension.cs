@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace CustomCollections.BinaryTree;
+namespace CustomCollections.Core.BinaryTree;
 
 public static class TreeVerticalConsoleVisualizerExtension
 {

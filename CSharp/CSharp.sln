@@ -90,11 +90,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserSettingsManager", "Geek
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Algorithms", "Algorithms", "{91FA761E-E9DD-4BFD-9C84-FE30E448FEF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAlgorithms", "GeekBrains\Algorithms\SimpleAlgorithms\SimpleAlgorithms.csproj", "{077792A1-D272-4ADE-A1EE-AEC0AA3ADF95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleAlgorithms", "GeekBrains\Algorithms\SimpleAlgorithms\SimpleAlgorithms.csproj", "{077792A1-D272-4ADE-A1EE-AEC0AA3ADF95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCollections", "GeekBrains\Algorithms\CustomCollections\CustomCollections.csproj", "{A5F87CD9-7F69-4A80-91F2-AB04359A352D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomCollections", "GeekBrains\Algorithms\CustomCollections\CustomCollections.csproj", "{A5F87CD9-7F69-4A80-91F2-AB04359A352D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkTests", "GeekBrains\Algorithms\BenchmarkTests\BenchmarkTests.csproj", "{3A3F7645-CBD4-4D53-AAA1-082875CA2146}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BenchmarkTests", "GeekBrains\Algorithms\BenchmarkTests\BenchmarkTests.csproj", "{3A3F7645-CBD4-4D53-AAA1-082875CA2146}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCollections.Core", "GeekBrains\Algorithms\CustomCollections.Core\CustomCollections.Core.csproj", "{FD8FD62E-8A90-4878-ACBC-BB5D9AD7B531}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -218,6 +220,10 @@ Global
 		{3A3F7645-CBD4-4D53-AAA1-082875CA2146}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A3F7645-CBD4-4D53-AAA1-082875CA2146}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A3F7645-CBD4-4D53-AAA1-082875CA2146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD8FD62E-8A90-4878-ACBC-BB5D9AD7B531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD8FD62E-8A90-4878-ACBC-BB5D9AD7B531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD8FD62E-8A90-4878-ACBC-BB5D9AD7B531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD8FD62E-8A90-4878-ACBC-BB5D9AD7B531}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -266,6 +272,7 @@ Global
 		{077792A1-D272-4ADE-A1EE-AEC0AA3ADF95} = {91FA761E-E9DD-4BFD-9C84-FE30E448FEF4}
 		{A5F87CD9-7F69-4A80-91F2-AB04359A352D} = {91FA761E-E9DD-4BFD-9C84-FE30E448FEF4}
 		{3A3F7645-CBD4-4D53-AAA1-082875CA2146} = {91FA761E-E9DD-4BFD-9C84-FE30E448FEF4}
+		{FD8FD62E-8A90-4878-ACBC-BB5D9AD7B531} = {91FA761E-E9DD-4BFD-9C84-FE30E448FEF4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48DBD92D-0F32-4815-9097-CA9C53A79734}

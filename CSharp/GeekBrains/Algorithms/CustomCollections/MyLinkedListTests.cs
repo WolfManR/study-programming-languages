@@ -1,4 +1,4 @@
-﻿using CustomCollections.LinkedList;
+﻿using CustomCollections.Core.LinkedList;
 
 namespace CustomCollections;
 

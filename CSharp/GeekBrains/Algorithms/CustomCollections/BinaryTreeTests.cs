@@ -1,5 +1,4 @@
-﻿using CustomCollections.BinaryTree;
-
+﻿using CustomCollections.Core.BinaryTree;
 using Xunit.Abstractions;
 
 namespace CustomCollections;

@@ -1,4 +1,4 @@
-﻿namespace CustomCollections.MyCollections;
+﻿namespace CustomCollections.LinkedList;
 
 public class MyLinkedList : ILinkedList
 {
@@ -105,9 +105,9 @@ public class MyLinkedList : ILinkedList
             yield return node;
     }
 
-    
+
     public int GetCount() => _counter;
-    
+
     public void AddNode(int value)
     {
         if (_startPoint == null)
@@ -123,7 +123,7 @@ public class MyLinkedList : ILinkedList
 
         _counter++;
     }
-    
+
     public void AddNodeAfter(Node node, int value)
     {
         if (!IsNodeExistInCurrentList(node))
@@ -135,7 +135,7 @@ public class MyLinkedList : ILinkedList
         if (next is not null) next.PrevNode = newOne;
         _counter++;
     }
-    
+
     public void RemoveNode(int index)
     {
         if (IsIndexNotInRange(index))
@@ -162,7 +162,7 @@ public class MyLinkedList : ILinkedList
 
         _counter--;
     }
-    
+
     public void RemoveNode(Node node)
     {
         if (!IsNodeExistInCurrentList(node))
@@ -190,7 +190,7 @@ public class MyLinkedList : ILinkedList
 
         _counter--;
     }
-    
+
     public Node FindNode(int searchValue)
     {
         var current = _startPoint;

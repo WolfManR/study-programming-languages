@@ -1,4 +1,4 @@
-﻿namespace CustomCollections.MyCollections;
+﻿namespace CustomCollections.LinkedList;
 
 /// <summary>
 /// Начальную и конечную ноду нужно хранить в самой реализации интерфейса
@@ -41,5 +41,5 @@ public interface ILinkedList
     /// </summary>
     /// <param name="searchValue"></param>
     /// <returns></returns>
-    Node FindNode(int searchValue); 
+    Node FindNode(int searchValue);
 }

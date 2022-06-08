@@ -1,4 +1,4 @@
-﻿namespace CustomCollections.MyCollections;
+﻿namespace CustomCollections.LinkedList;
 
 public class Node
 {

@@ -9,9 +9,11 @@
 
   <ItemGroup>
     <PackageReference Include="BenchmarkDotNet" Version="0.13.1" />
+    <PackageReference Include="Lorem.Universal.Net" Version="4.0.80" />
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="SearchValueInCollection\" />
     <Folder Include="Points\" />
   </ItemGroup>
 

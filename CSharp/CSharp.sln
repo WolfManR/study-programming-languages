@@ -98,6 +98,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BenchmarkTests", "GeekBrain
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCollections.Core", "GeekBrains\Algorithms\CustomCollections.Core\CustomCollections.Core.csproj", "{FD8FD62E-8A90-4878-ACBC-BB5D9AD7B531}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCollections.TraverseAlgorithms", "GeekBrains\Algorithms\CustomCollections.TraverseAlgorithms\CustomCollections.TraverseAlgorithms.csproj", "{0DF7A780-C1EF-4499-902B-DC695BDDC24A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -224,6 +226,10 @@ Global
 		{FD8FD62E-8A90-4878-ACBC-BB5D9AD7B531}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD8FD62E-8A90-4878-ACBC-BB5D9AD7B531}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD8FD62E-8A90-4878-ACBC-BB5D9AD7B531}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DF7A780-C1EF-4499-902B-DC695BDDC24A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF7A780-C1EF-4499-902B-DC695BDDC24A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF7A780-C1EF-4499-902B-DC695BDDC24A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF7A780-C1EF-4499-902B-DC695BDDC24A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -273,6 +279,7 @@ Global
 		{A5F87CD9-7F69-4A80-91F2-AB04359A352D} = {91FA761E-E9DD-4BFD-9C84-FE30E448FEF4}
 		{3A3F7645-CBD4-4D53-AAA1-082875CA2146} = {91FA761E-E9DD-4BFD-9C84-FE30E448FEF4}
 		{FD8FD62E-8A90-4878-ACBC-BB5D9AD7B531} = {91FA761E-E9DD-4BFD-9C84-FE30E448FEF4}
+		{0DF7A780-C1EF-4499-902B-DC695BDDC24A} = {91FA761E-E9DD-4BFD-9C84-FE30E448FEF4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48DBD92D-0F32-4815-9097-CA9C53A79734}

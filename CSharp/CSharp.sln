@@ -102,6 +102,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCollections.TraverseA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchAlgorithms", "SearchAlgorithms\SearchAlgorithms.csproj", "{4924872E-1372-4AEA-A158-17A8559F84DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAlgorithms", "SortingAlgorithms\SortingAlgorithms.csproj", "{F8B2E0BE-B04E-49BC-A7A1-95466385F6FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -236,6 +238,10 @@ Global
 		{4924872E-1372-4AEA-A158-17A8559F84DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4924872E-1372-4AEA-A158-17A8559F84DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4924872E-1372-4AEA-A158-17A8559F84DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8B2E0BE-B04E-49BC-A7A1-95466385F6FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8B2E0BE-B04E-49BC-A7A1-95466385F6FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8B2E0BE-B04E-49BC-A7A1-95466385F6FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8B2E0BE-B04E-49BC-A7A1-95466385F6FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -287,6 +293,7 @@ Global
 		{FD8FD62E-8A90-4878-ACBC-BB5D9AD7B531} = {91FA761E-E9DD-4BFD-9C84-FE30E448FEF4}
 		{0DF7A780-C1EF-4499-902B-DC695BDDC24A} = {91FA761E-E9DD-4BFD-9C84-FE30E448FEF4}
 		{4924872E-1372-4AEA-A158-17A8559F84DD} = {91FA761E-E9DD-4BFD-9C84-FE30E448FEF4}
+		{F8B2E0BE-B04E-49BC-A7A1-95466385F6FF} = {91FA761E-E9DD-4BFD-9C84-FE30E448FEF4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48DBD92D-0F32-4815-9097-CA9C53A79734}

@@ -19,6 +19,9 @@ HeapSortTest();
 Console.WriteLine("Bucket sort test");
 BucketSortTest();
 
+Console.WriteLine("External sort test");
+ExternalSortTest();
+
 void GenericSwapTest()
 {
      var first = 56;
@@ -76,4 +79,44 @@ void BucketSortTest()
 
     var result = BucketSorter.Sort(arr, 4);
     result.Print();
+}
+
+void ExternalSortTest()
+{
+
+    var arr = new int[14];
+    arr.Fill(2, 30).Print();
+
+    // prepare for External Sort
+    const string outputDirectory = "ExternalSortTest";
+    var fileToSort = $"{outputDirectory}/toSort.txt";
+    if (!Directory.Exists(outputDirectory)) Directory.CreateDirectory(outputDirectory);
+    using (var sw = new StreamWriter(File.Create(fileToSort)))
+    {
+        for (var i = 0; i < arr.Length; i++)
+        {
+            sw.WriteLine(arr[i]);
+        }
+    }
+
+    var outputFilePath = Path.Combine(Path.GetDirectoryName(fileToSort), "output.txt");
+    try
+    {
+        ExternalSorter sorter = new(5);  // bucket's size can be throw up to user decision if it need
+        sorter.Sort(fileToSort, outputFilePath);
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine(e);
+        return;
+    }
+
+    // Print sorted output file to console
+    using (var sr = new StreamReader(File.OpenRead(outputFilePath)))
+    {
+        while (!sr.EndOfStream)
+        {
+            Console.Write(sr.ReadLine() + " ");
+        }
+    }
 }

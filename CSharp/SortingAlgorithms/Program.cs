@@ -16,6 +16,9 @@ QuickSortTest();
 Console.WriteLine("Heap sort test");
 HeapSortTest();
 
+Console.WriteLine("Bucket sort test");
+BucketSortTest();
+
 void GenericSwapTest()
 {
      var first = 56;
@@ -64,4 +67,13 @@ void HeapSortTest()
         .Print()
         .HeapSort()
         .Print();
+}
+
+void BucketSortTest()
+{
+    var arr = new int[14];
+    arr.Fill(2, 30).Print();
+
+    var result = BucketSorter.Sort(arr, 4);
+    result.Print();
 }

@@ -1,5 +1,10 @@
-﻿Console.WriteLine("Search ways in matrix");
+﻿using SearchAlgorithms.BackTrackingAlgorithms;
+
+Console.WriteLine("Search ways in matrix");
 MatrixSearchAlgorithmTest();
+
+Console.WriteLine("Back track search");
+BackTrackSearch.PlaceQueens();
 
 void MatrixSearchAlgorithmTest()
 {

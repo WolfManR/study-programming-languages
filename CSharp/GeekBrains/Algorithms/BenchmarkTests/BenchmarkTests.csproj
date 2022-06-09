@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="DynamicPrograms\" />
     <Folder Include="SearchValueInCollection\" />
     <Folder Include="Points\" />
   </ItemGroup>

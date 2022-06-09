@@ -100,6 +100,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCollections.Core", "G
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCollections.TraverseAlgorithms", "GeekBrains\Algorithms\CustomCollections.TraverseAlgorithms\CustomCollections.TraverseAlgorithms.csproj", "{0DF7A780-C1EF-4499-902B-DC695BDDC24A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchAlgorithms", "SearchAlgorithms\SearchAlgorithms.csproj", "{4924872E-1372-4AEA-A158-17A8559F84DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -230,6 +232,10 @@ Global
 		{0DF7A780-C1EF-4499-902B-DC695BDDC24A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DF7A780-C1EF-4499-902B-DC695BDDC24A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DF7A780-C1EF-4499-902B-DC695BDDC24A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4924872E-1372-4AEA-A158-17A8559F84DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4924872E-1372-4AEA-A158-17A8559F84DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4924872E-1372-4AEA-A158-17A8559F84DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4924872E-1372-4AEA-A158-17A8559F84DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -280,6 +286,7 @@ Global
 		{3A3F7645-CBD4-4D53-AAA1-082875CA2146} = {91FA761E-E9DD-4BFD-9C84-FE30E448FEF4}
 		{FD8FD62E-8A90-4878-ACBC-BB5D9AD7B531} = {91FA761E-E9DD-4BFD-9C84-FE30E448FEF4}
 		{0DF7A780-C1EF-4499-902B-DC695BDDC24A} = {91FA761E-E9DD-4BFD-9C84-FE30E448FEF4}
+		{4924872E-1372-4AEA-A158-17A8559F84DD} = {91FA761E-E9DD-4BFD-9C84-FE30E448FEF4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48DBD92D-0F32-4815-9097-CA9C53A79734}

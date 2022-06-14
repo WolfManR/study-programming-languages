@@ -8,11 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="BinaryTreeTraverse\" />
-    <Folder Include="GraphTraverse\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\CustomCollections.Core\CustomCollections.Core.csproj" />
   </ItemGroup>
 

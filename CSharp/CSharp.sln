@@ -90,19 +90,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingAlgorithms", "GeekBr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AspMVC", "AspMVC", "{344BC53F-A2FF-45A4-A53B-BC1034A405AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultithreadList", "GeekBrains\AspMVC\MultithreadList\MultithreadList.csproj", "{7D38C650-5AF5-4F50-ACB5-E9942758C9FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultithreadList", "GeekBrains\AspMVC\MultithreadList\MultithreadList.csproj", "{7D38C650-5AF5-4F50-ACB5-E9942758C9FC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoadingDataFromApi", "LoadingDataFromApi", "{8E7D294C-BB88-49B8-BCA8-4C64DB590CF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApp", "GeekBrains\AspMVC\LoadingDataFromApi\ClientApp\ClientApp.csproj", "{7FCB91F5-B4C1-4A82-AFDD-14FFDE507F3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientApp", "GeekBrains\AspMVC\LoadingDataFromApi\ClientApp\ClientApp.csproj", "{7FCB91F5-B4C1-4A82-AFDD-14FFDE507F3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerApp", "GeekBrains\AspMVC\LoadingDataFromApi\ServerApp\ServerApp.csproj", "{1ED9919A-DDBD-42F0-AD4C-D13772FFB0D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerApp", "GeekBrains\AspMVC\LoadingDataFromApi\ServerApp\ServerApp.csproj", "{1ED9919A-DDBD-42F0-AD4C-D13772FFB0D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "GeekBrains\AspMVC\LoadingDataFromApi\Core\Core.csproj", "{329535E3-8F81-4F2D-BABE-4C9277DD57C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "GeekBrains\AspMVC\LoadingDataFromApi\Core\Core.csproj", "{329535E3-8F81-4F2D-BABE-4C9277DD57C5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FibonachiMultithread", "GeekBrains\AspMVC\FibonachiMultithread\FibonachiMultithread.csproj", "{1A588B29-CE23-422A-B128-FE357B6F2012}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorPainter", "GeekBrains\AspMVC\VisitorPainter\VisitorPainter.csproj", "{4D754E23-775B-4952-B712-DF3A6267EB30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisitorPainter", "GeekBrains\AspMVC\VisitorPainter\VisitorPainter.csproj", "{4D754E23-775B-4952-B712-DF3A6267EB30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataSerializer", "DataSerializer", "{7AC68D5B-12AF-4544-9F2F-6FBF46B796EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataSerializer.Data", "GeekBrains\AspMVC\DataSerializer\DataSerializer.Data\DataSerializer.Data.csproj", "{6739BE73-5FF3-4A8D-97D1-136D7AA5FF32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataSerializer.Generator", "GeekBrains\AspMVC\DataSerializer\DataSerializer.Generator\DataSerializer.Generator.csproj", "{A2118B13-D654-49E2-A79C-65D459CBEE12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSerializer.Deserializers", "GeekBrains\AspMVC\DataSerializer\DataSerializer.Deserializers\DataSerializer.Deserializers.csproj", "{68C68D80-684A-4F6F-B22D-D1FA0340319F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSerializer", "GeekBrains\AspMVC\DataSerializer\DataSerializer\DataSerializer.csproj", "{D817E68E-E730-4C80-97CC-6F5278F06167}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -262,6 +272,22 @@ Global
 		{4D754E23-775B-4952-B712-DF3A6267EB30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D754E23-775B-4952-B712-DF3A6267EB30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D754E23-775B-4952-B712-DF3A6267EB30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6739BE73-5FF3-4A8D-97D1-136D7AA5FF32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6739BE73-5FF3-4A8D-97D1-136D7AA5FF32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6739BE73-5FF3-4A8D-97D1-136D7AA5FF32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6739BE73-5FF3-4A8D-97D1-136D7AA5FF32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2118B13-D654-49E2-A79C-65D459CBEE12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2118B13-D654-49E2-A79C-65D459CBEE12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2118B13-D654-49E2-A79C-65D459CBEE12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2118B13-D654-49E2-A79C-65D459CBEE12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68C68D80-684A-4F6F-B22D-D1FA0340319F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68C68D80-684A-4F6F-B22D-D1FA0340319F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68C68D80-684A-4F6F-B22D-D1FA0340319F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68C68D80-684A-4F6F-B22D-D1FA0340319F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D817E68E-E730-4C80-97CC-6F5278F06167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D817E68E-E730-4C80-97CC-6F5278F06167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D817E68E-E730-4C80-97CC-6F5278F06167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D817E68E-E730-4C80-97CC-6F5278F06167}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -314,6 +340,11 @@ Global
 		{329535E3-8F81-4F2D-BABE-4C9277DD57C5} = {8E7D294C-BB88-49B8-BCA8-4C64DB590CF2}
 		{1A588B29-CE23-422A-B128-FE357B6F2012} = {344BC53F-A2FF-45A4-A53B-BC1034A405AF}
 		{4D754E23-775B-4952-B712-DF3A6267EB30} = {344BC53F-A2FF-45A4-A53B-BC1034A405AF}
+		{7AC68D5B-12AF-4544-9F2F-6FBF46B796EB} = {344BC53F-A2FF-45A4-A53B-BC1034A405AF}
+		{6739BE73-5FF3-4A8D-97D1-136D7AA5FF32} = {7AC68D5B-12AF-4544-9F2F-6FBF46B796EB}
+		{A2118B13-D654-49E2-A79C-65D459CBEE12} = {7AC68D5B-12AF-4544-9F2F-6FBF46B796EB}
+		{68C68D80-684A-4F6F-B22D-D1FA0340319F} = {7AC68D5B-12AF-4544-9F2F-6FBF46B796EB}
+		{D817E68E-E730-4C80-97CC-6F5278F06167} = {7AC68D5B-12AF-4544-9F2F-6FBF46B796EB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48DBD92D-0F32-4815-9097-CA9C53A79734}

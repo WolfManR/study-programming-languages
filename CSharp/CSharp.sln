@@ -92,6 +92,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AspMVC", "AspMVC", "{344BC5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultithreadList", "GeekBrains\AspMVC\MultithreadList\MultithreadList.csproj", "{7D38C650-5AF5-4F50-ACB5-E9942758C9FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonachiMultithread", "FibonachiMultithread\FibonachiMultithread.csproj", "{7E8A6127-7CD3-4EC4-963B-8DBCA8E42264}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -230,6 +232,10 @@ Global
 		{7D38C650-5AF5-4F50-ACB5-E9942758C9FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D38C650-5AF5-4F50-ACB5-E9942758C9FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D38C650-5AF5-4F50-ACB5-E9942758C9FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E8A6127-7CD3-4EC4-963B-8DBCA8E42264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E8A6127-7CD3-4EC4-963B-8DBCA8E42264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E8A6127-7CD3-4EC4-963B-8DBCA8E42264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E8A6127-7CD3-4EC4-963B-8DBCA8E42264}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -276,6 +282,7 @@ Global
 		{C874CEB2-E486-441D-B1C1-EB3DCB4F599F} = {91FA761E-E9DD-4BFD-9C84-FE30E448FEF4}
 		{344BC53F-A2FF-45A4-A53B-BC1034A405AF} = {0FA446DF-6E7B-4A9F-AD98-147BCAC22DE5}
 		{7D38C650-5AF5-4F50-ACB5-E9942758C9FC} = {344BC53F-A2FF-45A4-A53B-BC1034A405AF}
+		{7E8A6127-7CD3-4EC4-963B-8DBCA8E42264} = {344BC53F-A2FF-45A4-A53B-BC1034A405AF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48DBD92D-0F32-4815-9097-CA9C53A79734}

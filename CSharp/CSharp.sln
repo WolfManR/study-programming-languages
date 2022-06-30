@@ -128,6 +128,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataParser.Data", "GeekBrai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "GeekBrains\AspMVC\Calculator\Calculator.csproj", "{AF542180-4516-4747-ABE6-747779F3156E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomThreadPool", "GeekBrains\AspMVC\CustomThreadPool\CustomThreadPool.csproj", "{D526C256-C8B1-4C25-B95F-9BB5BCA6A417}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -326,6 +328,10 @@ Global
 		{AF542180-4516-4747-ABE6-747779F3156E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF542180-4516-4747-ABE6-747779F3156E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF542180-4516-4747-ABE6-747779F3156E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D526C256-C8B1-4C25-B95F-9BB5BCA6A417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D526C256-C8B1-4C25-B95F-9BB5BCA6A417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D526C256-C8B1-4C25-B95F-9BB5BCA6A417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D526C256-C8B1-4C25-B95F-9BB5BCA6A417}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -390,6 +396,7 @@ Global
 		{15A101C6-18F9-468F-AB5D-2860E6A7B992} = {7EBD5A2D-9F25-444D-AEA9-63B812154B8D}
 		{90C5E498-2A77-4A2F-99AC-29E9453A62E0} = {7EBD5A2D-9F25-444D-AEA9-63B812154B8D}
 		{AF542180-4516-4747-ABE6-747779F3156E} = {344BC53F-A2FF-45A4-A53B-BC1034A405AF}
+		{D526C256-C8B1-4C25-B95F-9BB5BCA6A417} = {344BC53F-A2FF-45A4-A53B-BC1034A405AF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48DBD92D-0F32-4815-9097-CA9C53A79734}

@@ -130,6 +130,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "GeekBrains\As
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomThreadPool", "GeekBrains\AspMVC\CustomThreadPool\CustomThreadPool.csproj", "{D526C256-C8B1-4C25-B95F-9BB5BCA6A417}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TemplateReporter", "TemplateReporter", "{E98B9EE7-A9BD-4AEA-85D9-FEB1ECDB489C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateReporter.Data", "GeekBrains\AspMVC\TemplateReporter\TemplateReporter.Data\TemplateReporter.Data.csproj", "{0152F326-6437-457E-8FCC-895AF7868ACE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateReporter.CsvImport", "GeekBrains\AspMVC\TemplateReporter\TemplateReporter.CsvImport\TemplateReporter.CsvImport.csproj", "{2EDBD38F-D458-48BE-9218-E4DCD8E5C40D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplatesReporter", "GeekBrains\AspMVC\TemplateReporter\TemplatesReporter\TemplatesReporter.csproj", "{BAFC4117-4661-44FA-BBB8-D5CD63079C3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplatesReporter.FastReport", "GeekBrains\AspMVC\TemplateReporter\TemplatesReporter.FastReport\TemplatesReporter.FastReport.csproj", "{3889CA39-1BBF-419E-B39A-B25F0B59B850}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -332,6 +342,22 @@ Global
 		{D526C256-C8B1-4C25-B95F-9BB5BCA6A417}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D526C256-C8B1-4C25-B95F-9BB5BCA6A417}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D526C256-C8B1-4C25-B95F-9BB5BCA6A417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0152F326-6437-457E-8FCC-895AF7868ACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0152F326-6437-457E-8FCC-895AF7868ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0152F326-6437-457E-8FCC-895AF7868ACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0152F326-6437-457E-8FCC-895AF7868ACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EDBD38F-D458-48BE-9218-E4DCD8E5C40D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EDBD38F-D458-48BE-9218-E4DCD8E5C40D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EDBD38F-D458-48BE-9218-E4DCD8E5C40D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EDBD38F-D458-48BE-9218-E4DCD8E5C40D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAFC4117-4661-44FA-BBB8-D5CD63079C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAFC4117-4661-44FA-BBB8-D5CD63079C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAFC4117-4661-44FA-BBB8-D5CD63079C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAFC4117-4661-44FA-BBB8-D5CD63079C3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3889CA39-1BBF-419E-B39A-B25F0B59B850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3889CA39-1BBF-419E-B39A-B25F0B59B850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3889CA39-1BBF-419E-B39A-B25F0B59B850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3889CA39-1BBF-419E-B39A-B25F0B59B850}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -397,6 +423,11 @@ Global
 		{90C5E498-2A77-4A2F-99AC-29E9453A62E0} = {7EBD5A2D-9F25-444D-AEA9-63B812154B8D}
 		{AF542180-4516-4747-ABE6-747779F3156E} = {344BC53F-A2FF-45A4-A53B-BC1034A405AF}
 		{D526C256-C8B1-4C25-B95F-9BB5BCA6A417} = {344BC53F-A2FF-45A4-A53B-BC1034A405AF}
+		{E98B9EE7-A9BD-4AEA-85D9-FEB1ECDB489C} = {344BC53F-A2FF-45A4-A53B-BC1034A405AF}
+		{0152F326-6437-457E-8FCC-895AF7868ACE} = {E98B9EE7-A9BD-4AEA-85D9-FEB1ECDB489C}
+		{2EDBD38F-D458-48BE-9218-E4DCD8E5C40D} = {E98B9EE7-A9BD-4AEA-85D9-FEB1ECDB489C}
+		{BAFC4117-4661-44FA-BBB8-D5CD63079C3F} = {E98B9EE7-A9BD-4AEA-85D9-FEB1ECDB489C}
+		{3889CA39-1BBF-419E-B39A-B25F0B59B850} = {E98B9EE7-A9BD-4AEA-85D9-FEB1ECDB489C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48DBD92D-0F32-4815-9097-CA9C53A79734}

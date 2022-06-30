@@ -110,9 +110,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataSerializer.Data", "Geek
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataSerializer.Generator", "GeekBrains\AspMVC\DataSerializer\DataSerializer.Generator\DataSerializer.Generator.csproj", "{A2118B13-D654-49E2-A79C-65D459CBEE12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSerializer.Deserializers", "GeekBrains\AspMVC\DataSerializer\DataSerializer.Deserializers\DataSerializer.Deserializers.csproj", "{68C68D80-684A-4F6F-B22D-D1FA0340319F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataSerializer.Deserializers", "GeekBrains\AspMVC\DataSerializer\DataSerializer.Deserializers\DataSerializer.Deserializers.csproj", "{68C68D80-684A-4F6F-B22D-D1FA0340319F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSerializer", "GeekBrains\AspMVC\DataSerializer\DataSerializer\DataSerializer.csproj", "{D817E68E-E730-4C80-97CC-6F5278F06167}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataSerializer", "GeekBrains\AspMVC\DataSerializer\DataSerializer\DataSerializer.csproj", "{D817E68E-E730-4C80-97CC-6F5278F06167}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataParser", "DataParser", "{7EBD5A2D-9F25-444D-AEA9-63B812154B8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataParser.Device", "GeekBrains\AspMVC\DataParser\DataParser.Device\DataParser.Device.csproj", "{740D2452-34F7-40DF-9C73-B6B8ED57A1BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataParser.Client", "GeekBrains\AspMVC\DataParser\DataParser.Client\DataParser.Client.csproj", "{23632EC6-6E75-4505-A6F0-4D653B77AD65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataParser.MongoDbStorage", "GeekBrains\AspMVC\DataParser\DataParser.MongoDbStorage\DataParser.MongoDbStorage.csproj", "{AD75537F-D783-409D-8822-1EC2FA30B41E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataParser.ConsoleUI", "GeekBrains\AspMVC\DataParser\DataParser.ConsoleUI\DataParser.ConsoleUI.csproj", "{15A101C6-18F9-468F-AB5D-2860E6A7B992}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataParser.Data", "GeekBrains\AspMVC\DataParser\DataParser.Data\DataParser.Data.csproj", "{90C5E498-2A77-4A2F-99AC-29E9453A62E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -288,6 +300,26 @@ Global
 		{D817E68E-E730-4C80-97CC-6F5278F06167}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D817E68E-E730-4C80-97CC-6F5278F06167}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D817E68E-E730-4C80-97CC-6F5278F06167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{740D2452-34F7-40DF-9C73-B6B8ED57A1BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{740D2452-34F7-40DF-9C73-B6B8ED57A1BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{740D2452-34F7-40DF-9C73-B6B8ED57A1BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{740D2452-34F7-40DF-9C73-B6B8ED57A1BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23632EC6-6E75-4505-A6F0-4D653B77AD65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23632EC6-6E75-4505-A6F0-4D653B77AD65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23632EC6-6E75-4505-A6F0-4D653B77AD65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23632EC6-6E75-4505-A6F0-4D653B77AD65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD75537F-D783-409D-8822-1EC2FA30B41E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD75537F-D783-409D-8822-1EC2FA30B41E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD75537F-D783-409D-8822-1EC2FA30B41E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD75537F-D783-409D-8822-1EC2FA30B41E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15A101C6-18F9-468F-AB5D-2860E6A7B992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15A101C6-18F9-468F-AB5D-2860E6A7B992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15A101C6-18F9-468F-AB5D-2860E6A7B992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15A101C6-18F9-468F-AB5D-2860E6A7B992}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90C5E498-2A77-4A2F-99AC-29E9453A62E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90C5E498-2A77-4A2F-99AC-29E9453A62E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90C5E498-2A77-4A2F-99AC-29E9453A62E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90C5E498-2A77-4A2F-99AC-29E9453A62E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -345,6 +377,12 @@ Global
 		{A2118B13-D654-49E2-A79C-65D459CBEE12} = {7AC68D5B-12AF-4544-9F2F-6FBF46B796EB}
 		{68C68D80-684A-4F6F-B22D-D1FA0340319F} = {7AC68D5B-12AF-4544-9F2F-6FBF46B796EB}
 		{D817E68E-E730-4C80-97CC-6F5278F06167} = {7AC68D5B-12AF-4544-9F2F-6FBF46B796EB}
+		{7EBD5A2D-9F25-444D-AEA9-63B812154B8D} = {344BC53F-A2FF-45A4-A53B-BC1034A405AF}
+		{740D2452-34F7-40DF-9C73-B6B8ED57A1BE} = {7EBD5A2D-9F25-444D-AEA9-63B812154B8D}
+		{23632EC6-6E75-4505-A6F0-4D653B77AD65} = {7EBD5A2D-9F25-444D-AEA9-63B812154B8D}
+		{AD75537F-D783-409D-8822-1EC2FA30B41E} = {7EBD5A2D-9F25-444D-AEA9-63B812154B8D}
+		{15A101C6-18F9-468F-AB5D-2860E6A7B992} = {7EBD5A2D-9F25-444D-AEA9-63B812154B8D}
+		{90C5E498-2A77-4A2F-99AC-29E9453A62E0} = {7EBD5A2D-9F25-444D-AEA9-63B812154B8D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48DBD92D-0F32-4815-9097-CA9C53A79734}

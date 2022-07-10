@@ -116,29 +116,37 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataSerializer", "GeekBrain
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataParser", "DataParser", "{7EBD5A2D-9F25-444D-AEA9-63B812154B8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataParser.Device", "GeekBrains\AspMVC\DataParser\DataParser.Device\DataParser.Device.csproj", "{740D2452-34F7-40DF-9C73-B6B8ED57A1BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataParser.Device", "GeekBrains\AspMVC\DataParser\DataParser.Device\DataParser.Device.csproj", "{740D2452-34F7-40DF-9C73-B6B8ED57A1BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataParser.Client", "GeekBrains\AspMVC\DataParser\DataParser.Client\DataParser.Client.csproj", "{23632EC6-6E75-4505-A6F0-4D653B77AD65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataParser.Client", "GeekBrains\AspMVC\DataParser\DataParser.Client\DataParser.Client.csproj", "{23632EC6-6E75-4505-A6F0-4D653B77AD65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataParser.MongoDbStorage", "GeekBrains\AspMVC\DataParser\DataParser.MongoDbStorage\DataParser.MongoDbStorage.csproj", "{AD75537F-D783-409D-8822-1EC2FA30B41E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataParser.MongoDbStorage", "GeekBrains\AspMVC\DataParser\DataParser.MongoDbStorage\DataParser.MongoDbStorage.csproj", "{AD75537F-D783-409D-8822-1EC2FA30B41E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataParser.ConsoleUI", "GeekBrains\AspMVC\DataParser\DataParser.ConsoleUI\DataParser.ConsoleUI.csproj", "{15A101C6-18F9-468F-AB5D-2860E6A7B992}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataParser.ConsoleUI", "GeekBrains\AspMVC\DataParser\DataParser.ConsoleUI\DataParser.ConsoleUI.csproj", "{15A101C6-18F9-468F-AB5D-2860E6A7B992}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataParser.Data", "GeekBrains\AspMVC\DataParser\DataParser.Data\DataParser.Data.csproj", "{90C5E498-2A77-4A2F-99AC-29E9453A62E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataParser.Data", "GeekBrains\AspMVC\DataParser\DataParser.Data\DataParser.Data.csproj", "{90C5E498-2A77-4A2F-99AC-29E9453A62E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "GeekBrains\AspMVC\Calculator\Calculator.csproj", "{AF542180-4516-4747-ABE6-747779F3156E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "GeekBrains\AspMVC\Calculator\Calculator.csproj", "{AF542180-4516-4747-ABE6-747779F3156E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomThreadPool", "GeekBrains\AspMVC\CustomThreadPool\CustomThreadPool.csproj", "{D526C256-C8B1-4C25-B95F-9BB5BCA6A417}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomThreadPool", "GeekBrains\AspMVC\CustomThreadPool\CustomThreadPool.csproj", "{D526C256-C8B1-4C25-B95F-9BB5BCA6A417}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TemplateReporter", "TemplateReporter", "{E98B9EE7-A9BD-4AEA-85D9-FEB1ECDB489C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateReporter.Data", "GeekBrains\AspMVC\TemplateReporter\TemplateReporter.Data\TemplateReporter.Data.csproj", "{0152F326-6437-457E-8FCC-895AF7868ACE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateReporter.Data", "GeekBrains\AspMVC\TemplateReporter\TemplateReporter.Data\TemplateReporter.Data.csproj", "{0152F326-6437-457E-8FCC-895AF7868ACE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateReporter.CsvImport", "GeekBrains\AspMVC\TemplateReporter\TemplateReporter.CsvImport\TemplateReporter.CsvImport.csproj", "{2EDBD38F-D458-48BE-9218-E4DCD8E5C40D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateReporter.CsvImport", "GeekBrains\AspMVC\TemplateReporter\TemplateReporter.CsvImport\TemplateReporter.CsvImport.csproj", "{2EDBD38F-D458-48BE-9218-E4DCD8E5C40D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplatesReporter", "GeekBrains\AspMVC\TemplateReporter\TemplatesReporter\TemplatesReporter.csproj", "{BAFC4117-4661-44FA-BBB8-D5CD63079C3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplatesReporter", "GeekBrains\AspMVC\TemplateReporter\TemplatesReporter\TemplatesReporter.csproj", "{BAFC4117-4661-44FA-BBB8-D5CD63079C3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplatesReporter.FastReport", "GeekBrains\AspMVC\TemplateReporter\TemplatesReporter.FastReport\TemplatesReporter.FastReport.csproj", "{3889CA39-1BBF-419E-B39A-B25F0B59B850}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplatesReporter.FastReport", "GeekBrains\AspMVC\TemplateReporter\TemplatesReporter.FastReport\TemplatesReporter.FastReport.csproj", "{3889CA39-1BBF-419E-B39A-B25F0B59B850}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AssemblyModules", "AssemblyModules", "{53EF0966-4DCF-4C33-8149-9287DE2AF2AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyModules.Core", "GeekBrains\AssemblyModules\AssemblyModules.Core\AssemblyModules.Core.csproj", "{9399BC75-C8BC-499F-BA6D-B469803AB5F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyModules.Factorial", "GeekBrains\AssemblyModules\AssemblyModules.Factorial\AssemblyModules.Factorial.csproj", "{26BE76D2-19D4-4E3E-B094-72FA74786D1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyModules.App", "GeekBrains\AssemblyModules\AssemblyModules.App\AssemblyModules.App.csproj", "{741A81C6-C60C-4576-8D6B-B664127EDF62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -358,6 +366,18 @@ Global
 		{3889CA39-1BBF-419E-B39A-B25F0B59B850}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3889CA39-1BBF-419E-B39A-B25F0B59B850}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3889CA39-1BBF-419E-B39A-B25F0B59B850}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9399BC75-C8BC-499F-BA6D-B469803AB5F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9399BC75-C8BC-499F-BA6D-B469803AB5F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9399BC75-C8BC-499F-BA6D-B469803AB5F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9399BC75-C8BC-499F-BA6D-B469803AB5F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26BE76D2-19D4-4E3E-B094-72FA74786D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26BE76D2-19D4-4E3E-B094-72FA74786D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26BE76D2-19D4-4E3E-B094-72FA74786D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26BE76D2-19D4-4E3E-B094-72FA74786D1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{741A81C6-C60C-4576-8D6B-B664127EDF62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{741A81C6-C60C-4576-8D6B-B664127EDF62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{741A81C6-C60C-4576-8D6B-B664127EDF62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{741A81C6-C60C-4576-8D6B-B664127EDF62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -428,6 +448,10 @@ Global
 		{2EDBD38F-D458-48BE-9218-E4DCD8E5C40D} = {E98B9EE7-A9BD-4AEA-85D9-FEB1ECDB489C}
 		{BAFC4117-4661-44FA-BBB8-D5CD63079C3F} = {E98B9EE7-A9BD-4AEA-85D9-FEB1ECDB489C}
 		{3889CA39-1BBF-419E-B39A-B25F0B59B850} = {E98B9EE7-A9BD-4AEA-85D9-FEB1ECDB489C}
+		{53EF0966-4DCF-4C33-8149-9287DE2AF2AB} = {0FA446DF-6E7B-4A9F-AD98-147BCAC22DE5}
+		{9399BC75-C8BC-499F-BA6D-B469803AB5F9} = {53EF0966-4DCF-4C33-8149-9287DE2AF2AB}
+		{26BE76D2-19D4-4E3E-B094-72FA74786D1C} = {53EF0966-4DCF-4C33-8149-9287DE2AF2AB}
+		{741A81C6-C60C-4576-8D6B-B664127EDF62} = {53EF0966-4DCF-4C33-8149-9287DE2AF2AB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48DBD92D-0F32-4815-9097-CA9C53A79734}
